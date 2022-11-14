@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/banner.css">
     <link rel="stylesheet" href="./assets/css/categorias.css">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
     <title>Bienvenido a Allura Gaming tu pagina favorita de juegos!!!</title>
 </head>
 
@@ -62,7 +63,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="off__container">
+                <div class="off__container cards__container">
                     <h2 class="title__category">Descuentos</h2>
                     <ul class="card__list">
                         <li class="card">
@@ -76,27 +77,74 @@
                             <p class="price__card text__card_container">$ usd 50</p>
                         </li>
                         <li class="card">
-                            <img src="/assets/img/estreno_doom.jpg" alt="doom" class="card__image">
-                            <h3 class="title__card text__card_container">Doom Eternal Deluxe</h3>
-                            <p class="price__card text__card_container">$ usd 80</p>
-                        </li>
-                        <li class="card">
-                            <img src="/assets/img/estreno_theascent.jpg" alt="the ascent" class="card__image">
-                            <h3 class="title__card text__card_container">The Ascent</h3>
+                            <img src="/assets/img/metro.jpg" alt="metro" class="card__image">
+                            <h3 class="title__card text__card_container">Metro Exodus</h3>
                             <p class="price__card text__card_container">$ usd 60</p>
                         </li>
                         <li class="card">
-                            <img src="/assets/img/estreno_valhalla.jpg" alt="assassin creed valhalla" class="li__card">
-                            <h3 class="title__card text__card_container">Assassins Creed valhalla</h3>
-                            <p class="price__card text__card_container">$ usd 100</p>
+                            <img src="/assets/img/pes2021.jpg" alt="pes2021" class="card__image">
+                            <h3 class="title__card text__card_container">Pro Evolution Soccer</h3>
+                            <p class="price__card text__card_container">$ usd 45</p>
+                        </li>
+                        <li class="card">
+                            <img src="/assets/img/watch_dogs2.jpg" alt="watch dogs 2" class="li__card">
+                            <h3 class="title__card text__card_container">Watchs Dogs 2</h3>
+                            <p class="price__card text__card_container">$ usd 50</p>
                         </li>
                     </ul>
                 </div>
 
-                <div class="sold__container"></div>
+                <div class="sold__container cards__container">
+                    <h2 class="title__category">Mas vendidos</h2>
+                    <ul class="card__list">
+                        <li class="card">
+                            <img src="/assets/img/battlefront2_vendidos.jpg" alt="star wars battlefront 2" class="card__image">
+                            <h3 class="title__card text__card_container">Star Wars Battlefront 2</h3>
+                            <p class="price__card text__card_container">$ usd 80</p>
+                        </li>
+                        <li class="card">
+                            <img src="/assets/img/dragonballz_vendido.jpg" alt="Dragon Ball Z" class="card__image">
+                            <h3 class="title__card text__card_container">Dragon Ball Z</h3>
+                            <p class="price__card text__card_container">$ usd 70</p>
+                        </li>
+                        <li class="card">
+                            <img src="/assets/img/gtatrilogy_vendidos.jpg" alt="gta trilogy" class="card__image">
+                            <h3 class="title__card text__card_container">GTA Trilogy</h3>
+                            <p class="price__card text__card_container">$ usd 90</p>
+                        </li>
+                        <li class="card">
+                            <img src="/assets/img/legobuilders_vendido.jpg" alt="lego builders" class="card__image">
+                            <h3 class="title__card text__card_container">Lego Builders</h3>
+                            <p class="price__card text__card_container">$ usd 35</p>
+                        </li>
+                        <li class="card">
+                            <img src="/assets/img/hitman3_vendido.jpg" alt="hitman 3" class="li__card">
+                            <h3 class="title__card text__card_container">Hitman 3</h3>
+                            <p class="price__card text__card_container">$ usd 40</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
+        <section class="contact__container">
+            <h2 class="contacto__title">Contactanos</h2>
+            <form class="contact__form">
+                <div class="name__container">
+                    <label for="name" class="input__label">Nombre</label>
+                    <input type="text" name="name" id="name" class="input name__input" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="name__container">
+                    <label for="text" class="input__label">Escribe un texo</label>
+                    <textarea name="text" id="text" placeholder="Deja tu mensaje aqui" class="input text__input" required></textarea>
+                </div>
+                <button type="submit" class="button__contacto" id="button__contact">Enviar mensaje</button>
+            </form>
+        </section>
     </main>
+    <footer>
+        <p class="footer"> Creado por Damian Manzino </p>
+    </footer>
+    <script src="/assets/js/validacion.js"></script>
 </body>
 
 </html>

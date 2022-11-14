@@ -1,4 +1,16 @@
 body{
-   
-    font-family: 'Raleway', sans-serif;
+    position: relative;
+   font-family: 'Raleway', sans-serif;
+}
+main{
+    background: linear-gradient(to bottom right, #A62C0D, #0a0932);
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    margin: 1rem;
+    text-align: right;
+    color: bisque;
+    font-size: 1rem;
 }

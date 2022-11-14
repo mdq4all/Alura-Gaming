@@ -1,0 +1,48 @@
+.contact__container{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+.contacto__title{
+    text-align: center;
+    color: bisque;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.contact__form{
+
+    margin: 0 auto;
+    padding-bottom: 4rem;
+        
+}
+.input__label{
+    display: block;
+    margin-bottom: 1rem;
+    color: bisque;
+    font-size: 2rem;
+}
+.input{
+    width: 40rem;
+    margin-bottom: 3rem;
+    box-shadow: 3px 3px 8px #000;
+    font-size: 1.5rem;
+    color: bisque;
+    background: none;
+}
+.name__input{
+    height: 2rem;
+}
+.text__input{
+    height: 8rem;
+}
+.button__contacto{
+    color: bisque;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: 1px solid bisque;
+    padding: 1rem 2rem;
+}
+.button__contacto:hover{
+    cursor: pointer;
+}
