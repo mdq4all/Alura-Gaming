@@ -40,3 +40,32 @@
     opacity: 0.5;
     border: none;
 }
+@media all and (max-width: 360px) {
+    .header__nav{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .logo__nav {
+      position: absolute;
+      width: 4em;
+      border: none;  
+      right: 2rem;
+      top: 2.5rem;
+    }
+    .search__container-nav{
+        left: 1rem;
+    }
+    .search__nav{
+        width: 15rem;
+        height: 1rem;
+    }
+    .seacrh__icon-nav{
+        height: 1.5rem;
+    }
+    .login__button-nav{
+        left: 1rem;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
+    

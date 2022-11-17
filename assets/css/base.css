@@ -1,6 +1,6 @@
 body{
     position: relative;
-   font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 main{
     background: linear-gradient(to bottom right, #A62C0D, #0a0932);
@@ -13,4 +13,9 @@ main{
     text-align: right;
     color: bisque;
     font-size: 1rem;
+}
+@media all and (max-width: 360px) { 
+    .footer{
+        text-align: center;
+    }
 }

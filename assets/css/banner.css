@@ -10,3 +10,15 @@
     color: antiquewhite;
     text-shadow: 6px 6px 8px black ;
 }
+
+@media all and (max-width: 360px) {
+    .banner__image{
+      margin-top: 9rem;
+    }
+    .titulo__banner {
+        position: initial;
+        font-size: 3rem;
+        text-align: center;
+
+    }
+}

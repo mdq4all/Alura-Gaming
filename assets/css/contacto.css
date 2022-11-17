@@ -11,7 +11,6 @@
     margin-bottom: 3rem;
 }
 .contact__form{
-
     margin: 0 auto;
     padding-bottom: 4rem;
         
@@ -45,4 +44,13 @@
 }
 .button__contacto:hover{
     cursor: pointer;
+}
+@media all and (max-width: 360px) {
+    .contact__container {
+        margin: 0 1rem;
+        flex-direction: column;
+    }
+    .input {
+        width: 20rem;
+    }
 }
