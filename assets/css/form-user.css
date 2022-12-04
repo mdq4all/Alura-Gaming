@@ -1,0 +1,81 @@
+html, body{
+    height:100%;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to bottom right, #A62C0D, #0a0932);
+   }
+
+.header__nav{
+    width: 100%;
+    background: linear-gradient(to bottom right, #A62C0D, #1f1004);
+    box-shadow: 0 2px 8px black;
+}
+.logo__nav{
+    height: 5rem;
+    width: 5rem;
+    padding:0 2rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 50px auto;
+}
+label{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.input__form{
+    margin-bottom: 2.5rem;
+    background: none;
+    height: 30px;
+    font-size: 1.8rem;
+    box-shadow: 3px 3px 8px #000;
+    transition: 1s;
+
+}
+.input__button{
+    background: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    width: 20rem;
+    margin: 60px auto;
+    transition: 1s;
+    box-shadow: 3px 3px 8px #000;
+    
+}
+.hover:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    margin: 1rem;
+    text-align: right;
+    color: bisque;
+    font-size: 1.3rem;
+}
+
+@media all and (max-width: 360px) {
+    .logo__nav {
+        width: 3rem;
+    }
+    .form {
+        width: 90%;
+        margin: 50px 20px;
+    }
+    .input__form{
+        font-size: 1.4rem;
+    }
+    .input__button{
+        width: 15rem;
+    }
+    .footer {
+        text-align: center;
+        font-size: 1rem;
+    }
+}
