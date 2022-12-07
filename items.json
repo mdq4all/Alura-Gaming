@@ -1,0 +1,76 @@
+{
+  "perfil": [
+    {
+      "url": "https://www.gamesfull.org/almacenamiento/2020/05/dragon-ball-xenoverse-2-deluxe-edition-1567-poster-193x288.jpg",
+      "name": "Dragon Ball Xeno",
+      "price": "30",
+      "comments": "Es la secuela directa del primer Xenoverse",
+      "genre": "accion",
+      "id": "b3119130-d1cb-4f36-a42f-59a725bd4ded"
+    },
+    {
+      "url": "https://www.gamesfull.org/almacenamiento/2020/06/doom-eternal-12757-poster-193x288.jpg",
+      "name": "DOOM Eternal Deluxe",
+      "price": "50",
+      "comments": "Los ejércitos del infierno han invadido la Tierra.",
+      "genre": "shooter",
+      "id": "3929a59b-7440-44bc-abd4-8b2488b0d670"
+    },
+    {
+      "url": "https://www.gamesfull.org/almacenamiento/2020/08/Wasteland-3-Deluxe-Edition-193x288.jpg",
+      "name": "Wasteland 3",
+      "price": "15",
+      "comments": "En Wasteland 3 estás al mando de un equipo de Rangers del Desierto",
+      "genre": "estrategia",
+      "id": "0f7ab1d9-695c-4ab2-b837-3f814dcc4cd4"
+    },
+    {
+      "url": "https://www.gamesfull.org/almacenamiento/2020/10/age-of-empires-iii-definitive-edition-193x288.jpg",
+      "name": "Age of Empires III",
+      "price": "10",
+      "comments": "Age of Empires III: Definitive Edition encumbra la celebración de una de las franquicias de estrategia",
+      "genre": "estrategia",
+      "id": "27cf15fe-6325-4e16-aa45-cabc3de076b2"
+    },
+    {
+      "url": "https://www.gamesfull.org/almacenamiento/2021/07/Warhammer-40000-Battlesector-193x288.jpg",
+      "name": "Warhammer 40000",
+      "price": "20",
+      "comments": "Warhammer 40,000: Battlesector es un frenético juego de estrategia por turnos establecido en el siniestro universo del milenio 41.",
+      "genre": "estrategia",
+      "id": "452e4656-7f76-45d6-8efa-b12e8bbfc2a0"
+    },
+    {
+      "url": "https://www.gamesfull.org/almacenamiento/2021/06/Red-Solstice-2-Survivors-193x288.jpg",
+      "name": "Red Solstice 2",
+      "price": "30",
+      "comments": "s el año 117 After Earth y tienes una misión muy importante. Te despertaron para liderar la Célula",
+      "genre": "estrategia",
+      "id": "72391594-12e6-40a6-85bf-59bae4812d20"
+    },
+    {
+      "url": "https://www.gamesfull.org/almacenamiento/2021/05/Warhammer-Age-of-Sigmar-Storm-Groundsteam-193x288.jpg",
+      "name": "Warhammer Age",
+      "price": "50",
+      "comments": "Warhammer Age of Sigmar Storm Ground Conviértete en el comandante de las increíbles facciones de Warhammer Age of Sigmar",
+      "genre": "estrategia",
+      "id": "a243f07e-a5de-4cdd-b7be-349a86913460"
+    },
+    {
+      "url": "https://www.gamesfull.org/almacenamiento/2020/06/project-hospital-8162-poster-193x288.jpg",
+      "name": "Project Hospital",
+      "price": "8",
+      "comments": "En Project Hospital ElAmigos conviértete en un doctor, un arquitecto aspirante y un gerente exitoso al mismo tiempo. Diseñe su propio hospita",
+      "genre": "estrategia",
+      "id": "03953ccd-0459-4598-ad4d-2258f8c3c6f7"
+    },
+    {
+      "url": "https://www.gamesfull.org/almacenamiento/2020/06/the-sims-4-digital-deluxe-edition-2806-poster-193x288.jpg",
+      "name": "The Sims 4 ",
+      "price": "12",
+      "comments": "Controla a Sims más complejos con apariencias, personalidades, conductas y emociones únicas.",
+      "genre": "estrategia",
+      "id": "59739c53-2707-45ed-bacd-2f83a582f4df"
+    }
+  ]
+}

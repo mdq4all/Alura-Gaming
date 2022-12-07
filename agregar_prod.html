@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/_reset.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/add_prod.css">
+    <title>Agregar un producto - Sesion administrador</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header__nav">
+            <img src="./assets/img/logo.svg" alt="logo" class="logo__nav">
+            <div class="search__container-nav">
+                <input type="search" name="search" id="search" class="search__nav ">
+                <button class="search__button"><img src="./assets/img/search.svg" alt="search_icon"
+                        class="seacrh__icon-nav hover__nav"></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="" id="form__add--product" class="form__add--product">
+            <label for="url" class="label__form">URL</label>
+            <input type="url" name="url" id="url" class="input__form hover"  placeholder="Url de la imagen del prodcuto" required>
+
+            <label for="name" class="label__form">Nombre del producto</label>
+            <input type="text" name="name" id="name" class="input__form hover" placeholder="Maximo 20 caracteres" required>
+
+            <label for="price" class="label__form">Precio</label>
+            <input type="text" name="prive" id="price" class="input__form hover" placeholder="Solo numero" required>
+
+            <label for="comentarios" class="label__form">Comentarios</label>
+            <textarea name="comentarios" id="comments" class="input__form--comments hover" placeholder="Maximo 150 caracteres..." required></textarea>
+
+            <legend>Genero</legend>
+            <fieldset class="radio__genre">
+            <div>
+                <input type="radio" id="action" name="genre" class="input__radio" value="accion" checked>
+                <label for="action" class="label__form">Accion</label>
+            </div>
+            <div>
+                <input type="radio" id="strategy" name="genre" class="input__radio" value="estrategia">
+                <label for="strategy" class="label__form">Estrategia</label>
+            </div>
+            <div>
+                <input type="radio" id="shooter" name="genre" class="input__radio" value="shooter">
+                <label for="shooter" class="label__form">Shooter</label>
+            </div>
+            </fieldset>
+            <input type="submit" id="submit" class="submit__button hover">
+        </form>
+    </main>
+   
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="/assets/js/add_product.js"></script>
+</html>

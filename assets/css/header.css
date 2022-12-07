@@ -10,7 +10,6 @@
     height: 5rem;
     width: 5rem;
     padding:0 2rem;
-    border-right: 6px groove #F1F1BF;
 }
 .search__container-nav{
     position: relative;
@@ -46,11 +45,7 @@
         flex-direction: column;
     }
     .logo__nav {
-      position: absolute;
-      width: 4em;
-      border: none;  
-      right: 2rem;
-      top: 2.5rem;
+      display: none;
     }
     .search__container-nav{
         left: 1rem;

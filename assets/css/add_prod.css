@@ -1,0 +1,93 @@
+html,body{
+    height:100%;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to bottom right, #A62C0D, #0a0932);
+   }
+
+   .form__add--product{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+label, legend{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.radio__genre{
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    box-shadow: 3px 3px 8px #000;
+    padding: 1rem;
+}
+
+.input__form, .input__form--comments{
+    margin-bottom: 2.5rem;
+    background: none;
+    height: 40px;
+    font-size: 1.8rem;
+    box-shadow: 3px 3px 8px #000;
+    transition: 1s;
+}
+.input__form--comments{
+    height: 80px;
+}
+.submit__button{
+    background: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    width: 20rem;
+    margin: 60px auto;
+    transition: 1s;
+    box-shadow: 3px 3px 8px #000;
+    
+}
+.hover:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+   .footer{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    margin: 1rem;
+    text-align: right;
+    color: bisque;
+    font-size: 1.3rem;
+}
+
+@media all and (max-width: 360px) {
+
+    main{
+        background: linear-gradient(to bottom right, #A62C0D, #0a0932);
+    }
+    .form__add--product{
+        width: 85%;
+        padding-top: 5rem;
+    }
+    label, legend{
+        font-size: 1.2rem;
+    }
+    .input__form, .input__form--comments{
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+        height: 30px;
+    }
+    .input__form--comments{
+        height: 60px;
+    }
+    .radio__genre{
+        margin: 0.5;
+    }
+    .submit__button{
+        width: 10rem;
+        margin: 20px auto;
+    }
+    
+}
